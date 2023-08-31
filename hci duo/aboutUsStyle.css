@@ -1,0 +1,165 @@
+body{
+    font-family: 'poppins-bold', sans-serif;
+    margin: 0;
+  }
+  
+  nav {
+    /* background: linear-gradient(rgba(255,255,255,1),rbga(255,255,255,1)); */
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* box-shadow: 0 5px 5px rgba(0,0,0,0.24), 0 1px 2px rgba(0,0,0,0.24); */
+  }
+  
+  nav img{
+    width: 100;
+    margin-left: 5vh;
+  }
+  
+  nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav ul li{
+    list-style: none;
+    margin-left: 10px;
+  }
+  
+  nav ul li a{
+    text-decoration: none;
+    color: #000000;
+    padding: 6px 15px;
+    margin-right: 2vh;
+    border-radius: 20px;
+  }
+  
+  nav ul li a:hover,
+  nav ul li a.active{
+    background: rgb(144, 101, 54);
+    color: #ede2ff;
+  }
+  
+  header{
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .background2{
+    width: 100%;
+    height: 100vh;
+    background: #eab676;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content2{
+    width: 60%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content2 .upper{
+    height: 20%;
+    width: 100%;
+}
+
+.content2 .lower{
+    height: 100%;
+    width: 100%;
+}
+
+.content2 .upper h1{
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'poppins-bold', sans-serif;
+}
+
+.content2 .lower ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+/* .content2 .lower ul li{
+    margin: 10vh
+} */
+
+.content2 .lower h2{
+    height: 70%;
+    width: 100%;
+    overflow: hidden;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-start;
+    font-family: 'poppins-bold', sans-serif;
+}
+
+footer{
+    background: #fff;
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+.background3{
+    background: #111;
+    height: auto;
+    width: 100%;
+    font-family: "Open Sans";
+    color: #fff;
+}
+
+.up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bottom h4{
+    text-align: center;
+    justify-content: center;
+
+}
+
+.socmed{
+    margin: 2vh;
+    border-radius: 20px;
+    opacity: 0.4;
+    margin-right: 6vh;
+    transition: 0.5s;
+}
+
+@media(max-width: 768px) {
+  .content2 .upper h1{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'poppins-bold', sans-serif;
+}
+
+}
